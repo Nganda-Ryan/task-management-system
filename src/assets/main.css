@@ -1,0 +1,236 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.font-light {font-weight: 300;}	
+.font-normal	{font-weight: 400;}
+.font-medium	{font-weight: 500;}
+.font-semibold	{font-weight: 600;}
+.font-bold	{font-weight: 700;}
+
+
+
+.italic {font-style: italic;}
+.not-italic {font-style: normal;}
+
+.h-5 {height: 1.25rem; /* 20px */}
+.h-6 {height: 1.5rem; /* 24px */}
+.h-18 {height: 68px;}
+.h-36	{height: 9rem; /* 144px */}
+.h-96	{height: 24rem; /* 384px */}
+
+.w-6 {width: 1.5rem; /* 24px */}
+.w-5 {width: 1.25rem; /* 20px */}
+.w-36	{width: 9rem; /* 144px */}
+.w-92 {
+  width: 350px;
+}
+.w-96	{width: 24rem; /* 384px */}
+.w-110	{width: 450px;}
+.w-2-6	{width: 33.333333%;}
+.w-full {width: 100%;}
+
+.min-w-92 {
+  min-width: 350px;
+}
+.min-w-96	{min-width: 24rem; /* 384px */}
+.max-w-110	{max-width: 450px;}
+
+
+.mr-2_5 {
+  margin-right: 10px;
+}
+.mb-2_5 {
+  margin-bottom: 10px;
+}
+.mt-2_5 {
+  margin-top: 10px;
+}
+.mf-2_5 {
+  margin-left: 10px;
+}
+.m-2_5 {margin: 0.625rem; /* 10px */}
+.mx-2_5	{
+  margin-left: 0.625rem; /* 10px */
+  margin-right: 0.625rem; /* 10px */
+}
+.my-2_5	{
+  margin-top: 0.625rem; /* 10px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.p-2_5 {padding: 0.625rem; /* 10px */}
+.px-2_5	{
+  padding-left: 0.625rem; /* 10px */
+  padding-right: 0.625rem; /* 10px */
+}
+.py-2_5	{
+  padding-top: 0.625rem; /* 10px */
+  padding-bottom: 0.625rem; /* 10px */
+}
+.p-1 {padding: 0.25rem; /* 4px */}
+
+
+.flex {display: flex;}
+.justify-between {justify-content: space-between;}
+.aling-item {align-items: center;}
+.flex-col	{flex-direction: column;}
+
+.text-xs {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+}
+.text-sm {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+}
+.text-base {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+}
+.text-lg {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.cursor-pointer	{cursor: pointer;}
+.rounded {border-radius: 0.25rem; /* 4px */}
+.rounded-md	{border-radius: 0.375rem; /* 6px */}
+.rounded-lg	{border-radius: 0.5rem; /* 8px */}
+.rounded-xl	{border-radius: 0.75rem; /* 12px */}
+
+.text-truncate-two-line {
+  width: 100%;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-slate-700 {
+  color: #334155
+}
+
+.fixed {
+  position: fixed;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.z-99999 {
+  z-index: 99999;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.absolute {
+  position: absolute;
+}
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-opacity-75 {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.transition-opacity {
+  transition: opacity 0.2s ease-in-out;
+}
+.max-h-full {
+  max-height: 100%;
+}
+.w-6_12 {
+  width: 50%;
+}
+.shadow-lg {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+.drop-shadow-lg {
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+}
+.container {
+  width: 100%;
+}
+.bg-white {
+  background-color: white;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.leading-none {
+  line-height: 1;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-md {
+  font-size: 1rem;
+}
+.bg-slate-100 {
+  background-color: #f1f5f9;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.select-none {
+  user-select: none;
+}
+.text-2xl {
+  font-size: 1.5rem;
+}
+.hover\:text-slate-600:hover {
+  color: #475569;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
